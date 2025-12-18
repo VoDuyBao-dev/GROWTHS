@@ -1,6 +1,6 @@
 import React from "react";
 import "./SocialMedia.scss";
-import { socialMediaLinks } from "../../portfolio";
+import {socialMediaLinks} from "../../portfolio";
 
 export default function SocialMedia() {
   if (!socialMediaLinks.display) {
@@ -8,7 +8,6 @@ export default function SocialMedia() {
   }
   return (
     <div className="social-media-div">
-
       {/* Video Hướng Dẫn - YouTube */}
       {socialMediaLinks.youtube && (
         <a
@@ -53,23 +52,19 @@ export default function SocialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img 
-            src={require("../../assets/images/zalo-icon.png")} 
-            alt="Zalo" 
+          <img
+            src={require("../../assets/images/zalo-icon.png")}
+            alt="Zalo"
             className="zalo-img"
           />
         </a>
       )}
       {/* Số điện thoại - Phone xanh lá */}
       {socialMediaLinks.phone && (
-        <a
-          href={socialMediaLinks.phone}
-          className="icon-button phone"
-        >
+        <a href={socialMediaLinks.phone} className="icon-button phone">
           <i className="fas fa-phone"></i>
         </a>
       )}
-
     </div>
   );
 }

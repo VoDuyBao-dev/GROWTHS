@@ -25,21 +25,20 @@ const greeting = {
   subTitle: emoji(
     "Chúng tôi mang đến thiệp giấy chứa đựng hạt giống, giúp bạn gửi gắm yêu thương và góp phần bảo vệ môi trường."
   ),
-  resumeLink:
-    "", // Set to empty to hide the button
+  resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  youtube: "https://www.youtube.com/watch?si=rEhZ2zHyKxFsDzbR&v=Vn3WFc1TV-Q&feature=youtu.be",
+  youtube:
+    "https://www.youtube.com/watch?si=rEhZ2zHyKxFsDzbR&v=Vn3WFc1TV-Q&feature=youtu.be",
   facebook: "https://www.facebook.com/le.yen.nhi.877248",
   instagram: "https://www.instagram.com/innhyyy_/",
   zalo: "https://zalo.me/0865967005",
   phone: "tel:0865967005",
- 
-  
+
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -56,8 +55,6 @@ const skillsSection = {
 const educationInfo = {
   display: false
 };
-
-
 
 // Your top 3 proficient stacks/tech experience
 
@@ -100,7 +97,6 @@ const openSource = {
 const bigProjects = {
   display: false
 };
-
 
 // Achievement Section
 // Include certificates, talks etc

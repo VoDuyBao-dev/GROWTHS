@@ -1,6 +1,6 @@
 import React from "react";
 import "./Products.scss";
-import { Fade } from "react-reveal";
+import {Fade} from "react-reveal";
 
 const products = [
   {
