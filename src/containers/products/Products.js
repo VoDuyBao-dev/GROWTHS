@@ -6,17 +6,17 @@ const products = [
   {
     name: "Thiệp Cưới Hạt Giống",
     description: "Thiệp cưới với hạt hoa cẩm chướng, gửi gắm lời chúc bền lâu",
-    image: require("../../assets/images/product1.jpg")
+    image: require("../../assets/images/product1.png")
   },
   {
     name: "Thiệp Sinh Nhật",
     description: "Thiệp sinh nhật với hạt hoa hướng dương, mang lại niềm vui",
-    image: require("../../assets/images/product2.jpg")
+    image: require("../../assets/images/product2.png")
   },
   {
     name: "Thiệp Tri Ân",
     description: "Thiệp cảm ơn với hạt cỏ xanh, tôn vinh tình bạn",
-    image: require("../../assets/images/product3.jpg")
+    image: require("../../assets/images/product3.png")
   }
 ];
 
