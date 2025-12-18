@@ -1,0 +1,23 @@
+@import "../../_globalColor";
+
+.footer-div {
+  margin-top: 2rem;
+  padding: 30px 0;
+  background-color: $primaryColor;
+  text-align: center;
+}
+
+.footer-text {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  letter-spacing: 0.5px;
+}
+
+@media (max-width: 768px) {
+  .footer-text {
+    font-size: 14px;
+    padding: 0 20px;
+  }
+}

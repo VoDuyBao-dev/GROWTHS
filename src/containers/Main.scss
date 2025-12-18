@@ -1,0 +1,14 @@
+@import "../_globalColor";
+
+.dark-mode {
+  background-color: $darkBackground;
+  color: white;
+  transition: "0.1s";
+}
+
+section,
+.greet-main,
+.products-main,
+.contact-margin-top {
+  scroll-margin-top: 80px;
+}
