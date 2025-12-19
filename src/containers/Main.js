@@ -12,6 +12,8 @@ import {StyleProvider} from "../contexts/StyleContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
 import Products from "./products/Products";
 import Contact from "./contact/Contact";
+import VideoSection from "./video/VideoSection";
+
 import "./Main.scss";
 
 const Main = () => {
@@ -45,7 +47,7 @@ const Main = () => {
           <>
             <Header />
             <Greeting />
-
+            <VideoSection />
             <Products />
             <Contact />
             <Footer />

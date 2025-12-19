@@ -80,6 +80,12 @@ function Header() {
           <li>
             <a href="#greeting">Trang chủ</a>
           </li>
+          
+          <li>
+    <a href="#video" className="menu-video">
+      Video
+    </a>
+  </li>
           <li>
             <a href="#products">Sản phẩm</a>
           </li>

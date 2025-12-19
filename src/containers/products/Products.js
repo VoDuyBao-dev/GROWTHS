@@ -14,8 +14,8 @@ const products = [
     image: require("../../assets/images/product2.png")
   },
   {
-    name: "Thiệp Tri Ân",
-    description: "Thiệp cảm ơn với hạt cỏ xanh, tôn vinh tình bạn",
+    name: "Thiệp Kỷ Niệm",
+    description: "Thiệp kỷ niệm với hạt cỏ xanh, tôn vinh tình bạn",
     image: require("../../assets/images/product3.png")
   }
 ];

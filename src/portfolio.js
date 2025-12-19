@@ -34,8 +34,8 @@ const greeting = {
 const socialMediaLinks = {
   youtube:
     "https://www.youtube.com/watch?si=rEhZ2zHyKxFsDzbR&v=Vn3WFc1TV-Q&feature=youtu.be",
-  facebook: "https://www.facebook.com/le.yen.nhi.877248",
-  instagram: "https://www.instagram.com/innhyyy_/",
+  facebook: "https://www.facebook.com/profile.php?id=61585408919299",
+  instagram: "https://www.instagram.com/thiepgiayhatgiong?igsh=MW92bnUxcm8xdnJ4Mw%3D%3D",
   zalo: "https://zalo.me/0865967005",
   phone: "tel:0865967005",
 
@@ -134,7 +134,7 @@ const contactInfo = {
   title: emoji("Liên Hệ Growths ☎️"),
   subtitle: "Gửi gắm lời chúc yêu thương cùng chúng tôi! 💌",
   number: "0865 967 005",
-  email_address: "Voduybao19052005@gmail.com" // Thêm email nếu có
+  // email_address: "" // Thêm email nếu có
 };
 
 const twitterDetails = {

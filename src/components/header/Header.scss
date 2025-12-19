@@ -1,10 +1,10 @@
 @import "../../_globalColor";
 
-/*React-headroom*/
 .headroom-wrapper {
-  max-height: 100px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
-
 /* header */
 
 .dark-menu {
@@ -179,4 +179,16 @@
   .header {
     font-size: 12px;
   }
+}
+
+.headroom {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.headroom--pinned {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.headroom--unpinned {
+  transform: translateY(-100%);
 }
